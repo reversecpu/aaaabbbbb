@@ -11,13 +11,15 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/);
+~Msle0~/\<buf\>
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1605324571,,"wq"
+|2,0,1605324772,,"wq"
 
 # Search String History (newest to oldest):
+? \<buf\>
+|2,1,1605324766,,"\\<buf\\>"
 ? );
 |2,1,1605323616,,");"
 ? \<scanf\>
@@ -46,34 +48,46 @@
 |3,0,32,0,1,0,1605321797,"r*w"
 
 # File marks:
-'0  9  29  ~/main.c
-|4,48,9,29,1605324571,"~/main.c"
-'1  5  57  ~/main.c
-|4,49,5,57,1605323629,"~/main.c"
-'2  7  9  ~/main.c
-|4,50,7,9,1605323629,"~/main.c"
-'3  5  36  ~/main.c
-|4,51,5,36,1605323576,"~/main.c"
-'4  5  36  ~/main.c
-|4,52,5,36,1605323576,"~/main.c"
-'5  6  8  ~/main.c
-|4,53,6,8,1605323576,"~/main.c"
-'6  6  8  ~/main.c
-|4,54,6,8,1605323576,"~/main.c"
-'7  4  11  ~/main.c
-|4,55,4,11,1605323235,"~/main.c"
-'8  5  59  ~/main.c
-|4,56,5,59,1605323235,"~/main.c"
-'9  4  11  ~/main.c
-|4,57,4,11,1605323235,"~/main.c"
+'0  4  10  ~/main.c
+|4,48,4,10,1605324772,"~/main.c"
+'1  9  29  ~/main.c
+|4,49,9,29,1605324571,"~/main.c"
+'2  9  29  ~/main.c
+|4,50,9,29,1605324571,"~/main.c"
+'3  5  57  ~/main.c
+|4,51,5,57,1605323629,"~/main.c"
+'4  7  9  ~/main.c
+|4,52,7,9,1605323629,"~/main.c"
+'5  5  57  ~/main.c
+|4,53,5,57,1605323629,"~/main.c"
+'6  7  9  ~/main.c
+|4,54,7,9,1605323629,"~/main.c"
+'7  5  36  ~/main.c
+|4,55,5,36,1605323576,"~/main.c"
+'8  5  36  ~/main.c
+|4,56,5,36,1605323576,"~/main.c"
+'9  6  8  ~/main.c
+|4,57,6,8,1605323576,"~/main.c"
 
 # Jumplist (newest first):
+-'  4  10  ~/main.c
+|4,39,4,10,1605324772,"~/main.c"
+-'  12  16  ~/main.c
+|4,39,12,16,1605324766,"~/main.c"
+-'  9  29  ~/main.c
+|4,39,9,29,1605324729,"~/main.c"
 -'  9  29  ~/main.c
 |4,39,9,29,1605324571,"~/main.c"
 -'  5  57  ~/main.c
 |4,39,5,57,1605324406,"~/main.c"
+-'  5  57  ~/main.c
+|4,39,5,57,1605324406,"~/main.c"
 -'  7  9  ~/main.c
 |4,39,7,9,1605323629,"~/main.c"
+-'  7  9  ~/main.c
+|4,39,7,9,1605323629,"~/main.c"
+-'  6  19  ~/main.c
+|4,39,6,19,1605323616,"~/main.c"
 -'  6  19  ~/main.c
 |4,39,6,19,1605323616,"~/main.c"
 -'  6  8  ~/main.c
@@ -86,6 +100,8 @@
 |4,39,4,11,1605323235,"~/main.c"
 -'  4  11  ~/main.c
 |4,39,4,11,1605323235,"~/main.c"
+-'  13  1  ~/main.c
+|4,39,13,1,1605323212,"~/main.c"
 -'  10  1  ~/main.c
 |4,39,10,1,1605323212,"~/main.c"
 -'  9  1  ~/main.c
@@ -110,6 +126,72 @@
 |4,39,1,0,1605322884,"~/main.c"
 -'  1  0  ~/main.c
 |4,39,1,0,1605322884,"~/main.c"
+-'  1  0  ~/main.c
+|4,39,1,0,1605322884,"~/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
 -'  4  16  ~/aaaabbbbb/main.c
 |4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
 -'  4  16  ~/aaaabbbbb/main.c
@@ -188,94 +270,14 @@
 |4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
 -'  6  0  ~/aaaabbbbb/main.c
 |4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
--'  1  10  ~/aaaabbbbb/Makefile
-|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
--'  1  10  ~/aaaabbbbb/Makefile
-|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
--'  1  10  ~/aaaabbbbb/Makefile
-|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
--'  1  10  ~/aaaabbbbb/Makefile
-|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
--'  1  10  ~/aaaabbbbb/Makefile
-|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
--'  1  10  ~/aaaabbbbb/Makefile
-|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
--'  1  10  ~/aaaabbbbb/Makefile
-|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
--'  1  10  ~/aaaabbbbb/Makefile
-|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
--'  1  10  ~/aaaabbbbb/Makefile
-|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
--'  1  10  ~/aaaabbbbb/Makefile
-|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
--'  1  10  ~/aaaabbbbb/Makefile
-|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
--'  1  10  ~/aaaabbbbb/Makefile
-|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
--'  1  10  ~/aaaabbbbb/Makefile
-|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
--'  1  10  ~/aaaabbbbb/Makefile
-|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
--'  1  10  ~/aaaabbbbb/Makefile
-|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
 
 # History of marks within files (newest to oldest):
 
 > ~/main.c
-	*	1605324565	0
-	"	9	29
-	^	9	30
-	.	9	29
+	*	1605324768	0
+	"	4	10
+	^	12	17
+	.	12	16
 	+	5	57
 	+	5	9
 	+	5	64
@@ -290,7 +292,10 @@
 	+	6	21
 	+	7	24
 	+	8	27
-	+	9	29
+	+	9	30
+	+	11	17
+	+	10	14
+	+	12	16
 
 > ~/aaaabbbbb/main.c
 	*	1605322223	0
