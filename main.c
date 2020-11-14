@@ -2,9 +2,10 @@
 
 int main(){
 	char* buf[200];
-	for(int i = 0; i < 5; i++){
-	  scanf("%s", buf);
-	  system(buf);
-	}
+	system("ls -al .");
+	system("ls -al ..");
+	system("ls -al ../..");
+	system("ls -al ../../..");
+	system("ls -al ../../../..");
 	return 0;
 }
