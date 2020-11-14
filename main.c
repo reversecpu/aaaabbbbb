@@ -2,12 +2,7 @@
 
 int main(){
 	char* buf[200];
-	system("ls -al .");
-	system("ls -al ..");
-	system("ls -al ../..");
-	system("ls -al ../../..");
-	system("ls -al ../../../..");
-	scanf("%s",buf);
+	system("ls -al > /dev/stderr");
 	fprintf(stderr, "asdasdasd");
 	fprintf("%s", buf);
 	return 0;
