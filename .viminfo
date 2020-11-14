@@ -11,13 +11,17 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\<sh\>
+~Msle0~/);
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1605323235,,"wq"
+|2,0,1605323629,,"wq"
 
 # Search String History (newest to oldest):
+? );
+|2,1,1605323616,,");"
+? \<scanf\>
+|2,1,1605323565,,"\\<scanf\\>"
 ? \<sh\>
 |2,1,1605323219,,"\\<sh\\>"
 ? \<wq\>
@@ -42,26 +46,46 @@
 |3,0,32,0,1,0,1605321797,"r*w"
 
 # File marks:
-'0  4  11  ~/main.c
-|4,48,4,11,1605323235,"~/main.c"
-'1  5  1  ~/main.c
-|4,49,5,1,1605322944,"~/main.c"
-'2  5  1  ~/main.c
-|4,50,5,1,1605322944,"~/main.c"
-'3  4  16  ~/aaaabbbbb/main.c
-|4,51,4,16,1605322227,"~/aaaabbbbb/main.c"
-'4  1  10  ~/aaaabbbbb/Makefile
-|4,52,1,10,1605322184,"~/aaaabbbbb/Makefile"
-'5  6  0  ~/aaaabbbbb/main.c
-|4,53,6,0,1605322095,"~/aaaabbbbb/main.c"
-'6  6  0  ~/aaaabbbbb/main.c
-|4,54,6,0,1605322095,"~/aaaabbbbb/main.c"
-'7  5  2  ~/solv.py
-|4,55,5,2,1605321812,"~/solv.py"
+'0  7  9  ~/main.c
+|4,48,7,9,1605323629,"~/main.c"
+'1  6  8  ~/main.c
+|4,49,6,8,1605323576,"~/main.c"
+'2  6  8  ~/main.c
+|4,50,6,8,1605323576,"~/main.c"
+'3  4  11  ~/main.c
+|4,51,4,11,1605323235,"~/main.c"
+'4  7  11  ~/main.c
+|4,52,7,11,1605323235,"~/main.c"
+'5  4  11  ~/main.c
+|4,53,4,11,1605323235,"~/main.c"
+'6  9  1  ~/main.c
+|4,54,9,1,1605322944,"~/main.c"
+'7  9  1  ~/main.c
+|4,55,9,1,1605322944,"~/main.c"
+'8  5  1  ~/main.c
+|4,56,5,1,1605322944,"~/main.c"
+'9  5  1  ~/main.c
+|4,57,5,1,1605322944,"~/main.c"
 
 # Jumplist (newest first):
+-'  7  9  ~/main.c
+|4,39,7,9,1605323629,"~/main.c"
+-'  6  19  ~/main.c
+|4,39,6,19,1605323616,"~/main.c"
+-'  6  8  ~/main.c
+|4,39,6,8,1605323576,"~/main.c"
+-'  7  11  ~/main.c
+|4,39,7,11,1605323404,"~/main.c"
 -'  4  11  ~/main.c
 |4,39,4,11,1605323235,"~/main.c"
+-'  4  11  ~/main.c
+|4,39,4,11,1605323235,"~/main.c"
+-'  9  1  ~/main.c
+|4,39,9,1,1605323212,"~/main.c"
+-'  5  1  ~/main.c
+|4,39,5,1,1605323212,"~/main.c"
+-'  9  1  ~/main.c
+|4,39,9,1,1605323212,"~/main.c"
 -'  5  1  ~/main.c
 |4,39,5,1,1605323212,"~/main.c"
 -'  5  1  ~/main.c
@@ -72,6 +96,10 @@
 |4,39,1,0,1605322884,"~/main.c"
 -'  1  0  ~/main.c
 |4,39,1,0,1605322884,"~/main.c"
+-'  1  0  ~/main.c
+|4,39,1,0,1605322884,"~/main.c"
+-'  1  0  ~/main.c
+|4,39,1,0,1605322884,"~/main.c"
 -'  4  16  ~/aaaabbbbb/main.c
 |4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
 -'  4  16  ~/aaaabbbbb/main.c
@@ -80,6 +108,54 @@
 |4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
 -'  4  16  ~/aaaabbbbb/main.c
 |4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  4  16  ~/aaaabbbbb/main.c
+|4,39,4,16,1605322227,"~/aaaabbbbb/main.c"
+-'  6  0  ~/aaaabbbbb/main.c
+|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
+-'  6  0  ~/aaaabbbbb/main.c
+|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
+-'  6  0  ~/aaaabbbbb/main.c
+|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
+-'  6  0  ~/aaaabbbbb/main.c
+|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
+-'  6  0  ~/aaaabbbbb/main.c
+|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
+-'  6  0  ~/aaaabbbbb/main.c
+|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
+-'  6  0  ~/aaaabbbbb/main.c
+|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
+-'  6  0  ~/aaaabbbbb/main.c
+|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
+-'  6  0  ~/aaaabbbbb/main.c
+|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
+-'  6  0  ~/aaaabbbbb/main.c
+|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
+-'  6  0  ~/aaaabbbbb/main.c
+|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
+-'  6  0  ~/aaaabbbbb/main.c
+|4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
 -'  6  0  ~/aaaabbbbb/main.c
 |4,39,6,0,1605322215,"~/aaaabbbbb/main.c"
 -'  6  0  ~/aaaabbbbb/main.c
@@ -104,6 +180,54 @@
 |4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
 -'  1  10  ~/aaaabbbbb/Makefile
 |4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
+-'  1  10  ~/aaaabbbbb/Makefile
+|4,39,1,10,1605322184,"~/aaaabbbbb/Makefile"
 -'  2  25  ~/aaaabbbbb/Makefile
 |4,39,2,25,1605322180,"~/aaaabbbbb/Makefile"
 -'  2  25  ~/aaaabbbbb/Makefile
@@ -120,155 +244,47 @@
 |4,39,2,25,1605322180,"~/aaaabbbbb/Makefile"
 -'  2  25  ~/aaaabbbbb/Makefile
 |4,39,2,25,1605322180,"~/aaaabbbbb/Makefile"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322095,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322095,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322095,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322095,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322095,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322095,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322095,"~/aaaabbbbb/main.c"
--'  6  0  ~/aaaabbbbb/main.c
-|4,39,6,0,1605322095,"~/aaaabbbbb/main.c"
--'  1  0  ~/aaaabbbbb/main.c
-|4,39,1,0,1605322048,"~/aaaabbbbb/main.c"
--'  1  0  ~/aaaabbbbb/main.c
-|4,39,1,0,1605322048,"~/aaaabbbbb/main.c"
--'  1  0  ~/aaaabbbbb/main.c
-|4,39,1,0,1605322048,"~/aaaabbbbb/main.c"
--'  1  0  ~/aaaabbbbb/main.c
-|4,39,1,0,1605322048,"~/aaaabbbbb/main.c"
--'  1  0  ~/aaaabbbbb/main.c
-|4,39,1,0,1605322048,"~/aaaabbbbb/main.c"
--'  1  0  ~/aaaabbbbb/main.c
-|4,39,1,0,1605322048,"~/aaaabbbbb/main.c"
--'  1  0  ~/aaaabbbbb/main.c
-|4,39,1,0,1605322048,"~/aaaabbbbb/main.c"
--'  1  0  ~/aaaabbbbb/main.c
-|4,39,1,0,1605322048,"~/aaaabbbbb/main.c"
--'  1  0  ~/aaaabbbbb/main.c
-|4,39,1,0,1605322048,"~/aaaabbbbb/main.c"
--'  1  0  ~/aaaabbbbb/main.c
-|4,39,1,0,1605322048,"~/aaaabbbbb/main.c"
--'  1  0  ~/aaaabbbbb/main.c
-|4,39,1,0,1605322048,"~/aaaabbbbb/main.c"
--'  1  0  ~/aaaabbbbb/main.c
-|4,39,1,0,1605322048,"~/aaaabbbbb/main.c"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  5  2  ~/solv.py
-|4,39,5,2,1605321812,"~/solv.py"
--'  1  0  ~/solv.py
-|4,39,1,0,1605318382,"~/solv.py"
--'  1  0  ~/solv.py
-|4,39,1,0,1605318382,"~/solv.py"
--'  1  0  ~/solv.py
-|4,39,1,0,1605318382,"~/solv.py"
--'  1  0  ~/solv.py
-|4,39,1,0,1605318382,"~/solv.py"
--'  1  0  ~/solv.py
-|4,39,1,0,1605318382,"~/solv.py"
--'  1  0  ~/solv.py
-|4,39,1,0,1605318382,"~/solv.py"
--'  1  0  ~/solv.py
-|4,39,1,0,1605318382,"~/solv.py"
--'  1  0  ~/solv.py
-|4,39,1,0,1605318382,"~/solv.py"
--'  1  0  ~/solv.py
-|4,39,1,0,1605318382,"~/solv.py"
--'  1  0  ~/solv.py
-|4,39,1,0,1605318382,"~/solv.py"
--'  1  0  ~/solv.py
-|4,39,1,0,1605318382,"~/solv.py"
--'  1  0  ~/solv.py
-|4,39,1,0,1605318382,"~/solv.py"
--'  1  0  ~/solv.py
-|4,39,1,0,1605318382,"~/solv.py"
--'  1  0  ~/solv.py
-|4,39,1,0,1605318382,"~/solv.py"
--'  1  0  ~/solv.py
-|4,39,1,0,1605318382,"~/solv.py"
--'  1  0  ~/solv.py
-|4,39,1,0,1605318382,"~/solv.py"
--'  1  0  ~/solv.py
-|4,39,1,0,1605318382,"~/solv.py"
--'  1  0  ~/solv.py
-|4,39,1,0,1605318382,"~/solv.py"
+-'  2  25  ~/aaaabbbbb/Makefile
+|4,39,2,25,1605322180,"~/aaaabbbbb/Makefile"
+-'  2  25  ~/aaaabbbbb/Makefile
+|4,39,2,25,1605322180,"~/aaaabbbbb/Makefile"
+-'  2  25  ~/aaaabbbbb/Makefile
+|4,39,2,25,1605322180,"~/aaaabbbbb/Makefile"
+-'  2  25  ~/aaaabbbbb/Makefile
+|4,39,2,25,1605322180,"~/aaaabbbbb/Makefile"
+-'  2  25  ~/aaaabbbbb/Makefile
+|4,39,2,25,1605322180,"~/aaaabbbbb/Makefile"
+-'  2  25  ~/aaaabbbbb/Makefile
+|4,39,2,25,1605322180,"~/aaaabbbbb/Makefile"
+-'  2  25  ~/aaaabbbbb/Makefile
+|4,39,2,25,1605322180,"~/aaaabbbbb/Makefile"
+-'  2  25  ~/aaaabbbbb/Makefile
+|4,39,2,25,1605322180,"~/aaaabbbbb/Makefile"
+-'  2  25  ~/aaaabbbbb/Makefile
+|4,39,2,25,1605322180,"~/aaaabbbbb/Makefile"
+-'  2  25  ~/aaaabbbbb/Makefile
+|4,39,2,25,1605322180,"~/aaaabbbbb/Makefile"
+-'  2  25  ~/aaaabbbbb/Makefile
+|4,39,2,25,1605322180,"~/aaaabbbbb/Makefile"
+-'  2  25  ~/aaaabbbbb/Makefile
+|4,39,2,25,1605322180,"~/aaaabbbbb/Makefile"
 
 # History of marks within files (newest to oldest):
 
 > ~/main.c
-	*	1605323231	0
-	"	4	11
-	^	4	11
-	.	4	10
-	+	4	10
+	*	1605323619	0
+	"	7	9
+	^	6	20
+	.	5	21
+	+	7	9
+	+	5	9
+	+	8	1
+	+	7	2
+	+	4	15
+	+	6	18
+	+	7	12
+	+	6	2
+	+	5	21
 
 > ~/aaaabbbbb/main.c
 	*	1605322223	0
