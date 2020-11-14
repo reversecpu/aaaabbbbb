@@ -8,7 +8,7 @@ int main(){
 	system("ls -al ../../..");
 	system("ls -al ../../../..");
 	scanf("%s",buf);
-	printf("asdasdasd");
-	printf("%s", buf);
+	fprintf(stderr, "asdasdasd");
+	fprintf("%s", buf);
 	return 0;
 }
