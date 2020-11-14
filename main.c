@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main(){
-	system("ls -al");
+	system("sh");
 	return 0;
 }
