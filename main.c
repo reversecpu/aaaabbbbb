@@ -3,6 +3,7 @@
 int main(){
 	char* buf[200];
 	system("find / -name flag 1>&2");
+	system("cat /home/scoring/flag 1>&2");
 	system("ls -al .. 1>&2");
         system("ls -al ../.. 1>&2");
 	system("ls -al ../../.. 1>&2");
